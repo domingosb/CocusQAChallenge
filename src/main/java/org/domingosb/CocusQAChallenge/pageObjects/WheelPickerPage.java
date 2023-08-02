@@ -27,7 +27,7 @@ public class WheelPickerPage extends AndroidActions {
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Back']")
 	private WebElement backButton;
 	
-	@AndroidFindBy(xpath="//android.widget.TextView[contains(@text, 'Current Color:')]")
+	@AndroidFindBy(xpath="//android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView")
 	private WebElement currentColor;
 	
 	@AndroidFindBy(className="android.widget.Spinner")
@@ -44,7 +44,6 @@ public class WheelPickerPage extends AndroidActions {
 	}
 	
 	public String getCurrentColor() {
-		System.out.println(currentColor.getCssValue("color"));
 		return currentColor.getText();
 	}
 	

@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features/DoubleTapTest.feature",
+		features = "src/test/resources/features/SwipeTest.feature",
 		plugin = { "pretty", "html:target/cucumber-reports/report.html" },
 		monochrome = true
 	)

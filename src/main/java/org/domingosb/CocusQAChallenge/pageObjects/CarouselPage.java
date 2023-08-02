@@ -27,7 +27,7 @@ public class CarouselPage extends AndroidActions {
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Back']")
 	private WebElement backButton;
 	
-	@AndroidFindBy(xpath="//android.widget.HorizontalScrollView//android.view.ViewGroup//android.view.ViewGroup//android.view.ViewGroup")
+	@AndroidFindBy(xpath="//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup")
 	private WebElement swipeButton;
 	
 	@AndroidFindBy(xpath="//android.widget.HorizontalScrollView//android.view.ViewGroup//android.view.ViewGroup//android.view.ViewGroup//android.widget.TextView")
