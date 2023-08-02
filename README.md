@@ -20,13 +20,13 @@ Appium Java Client - https://mvnrepository.com/artifact/io.appium/java-client/8.
 
 JUnit - https://mvnrepository.com/artifact/junit/junit/4.13.2
 
-## Test Data and Expected Results
-
-I didn't have enough time to create a JSON parser in Java to grab the test data and expected results from a .json file but we could do that in the BaseTest class for example and use the test data and expected results in our tests. All the test data and expected results are right now hardcoded.
-
 Cucumber JVM: Java - https://mvnrepository.com/artifact/io.cucumber/cucumber-java
 
 Cucumber JVM: JUnit 4 - https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
 
 Selenium Support - https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support/4.11.0
+
+## Test Data and Expected Results
+
+I didn't have enough time to create a JSON parser in Java to grab the test data and expected results from a .json file but we could do that in the BaseTest class for example and use the test data and expected results in our tests. All the test data and expected results are right now hardcoded.
 
