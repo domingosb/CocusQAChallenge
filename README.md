@@ -12,3 +12,6 @@ I make available the last Cucumber report that was generated during my tests, ho
 
 ## Properties
 
+In "src/main/resources" there is a file called "data.properties" where some properties can be set related to the Appium server initialization.
+
+## Dependencies
