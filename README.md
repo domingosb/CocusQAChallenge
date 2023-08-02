@@ -1,6 +1,6 @@
 # CocusQAChallenge
 
-These tests were created to test the "appiumChallenge.apk" application. This was achieved by using Appium, Java 8, Cucumber and JUnit. To locate the elements of the application Appium Inspector was used. Android Studio was installed to use its development kit and to use their emulators. The code was also tested using a real mobile device, my Xiaomi Redmi Note 8.
+These tests were created to test the "appiumChallenge.apk" application. This was achieved by using Appium, Java 8, Cucumber and JUnit. To locate the elements of the application Appium Inspector was used. Android Studio was installed to use its development kit and to use their emulators. The code was also tested using a real mobile device, my Xiaomi Redmi Note 8 and using AWS Device Farm with the help of this [blog article](https://aws.amazon.com/blogs/mobile/testing-mobile-apps-with-cucumber-and-appium-through-testng-on-aws-device-farm/).
 
 ## Steps to run
 
