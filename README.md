@@ -15,3 +15,5 @@ I make available the last Cucumber report that was generated during my tests, ho
 In "src/main/resources" there is a file called "data.properties" where some properties can be set related to the Appium server initialization.
 
 ## Dependencies
+
+Appium Java Client 8.5.1 - https://mvnrepository.com/artifact/io.appium/java-client/8.5.1
