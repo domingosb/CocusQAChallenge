@@ -27,8 +27,9 @@ public class BaseTest extends AppiumUtils {
 		String ipAddress = System.getProperty("ipAddress") != null ? System.getProperty("ipAddress") : prop.getProperty("ipAddress");
 		prop.load(fis);
 		String port = prop.getProperty("port");
+		String nodeJsLocation = prop.getProperty("nodeJsLocation");
 			
-		service = startAppiumServer(ipAddress, Integer.parseInt(port));
+		service = startAppiumServer(ipAddress, Integer.parseInt(port), nodeJsLocation);
 								
 		UiAutomator2Options options = new UiAutomator2Options();
 		//options.setDeviceName(prop.getProperty("AndroidDeviceNames")); //Emulator

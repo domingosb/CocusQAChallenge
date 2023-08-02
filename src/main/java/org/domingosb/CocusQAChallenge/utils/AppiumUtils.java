@@ -9,9 +9,9 @@ public abstract class AppiumUtils {
 
 	public static AppiumDriverLocalService service;
 	
-	public static AppiumDriverLocalService startAppiumServer(String ipAddress,int port) {
+	public static AppiumDriverLocalService startAppiumServer(String ipAddress,int port, String nodeJsLocation) {
 		
-		service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\domin\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
+		service = new AppiumServiceBuilder().withAppiumJS(new File(nodeJsLocation))
 					.withIPAddress(ipAddress).usingPort(port).build();
 		service.start();
 		return service;
